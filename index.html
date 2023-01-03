@@ -15,18 +15,112 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- bootstrap css link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <!-- header start  -->
+
+    <header id="home">
+
+        <!-- navbar start  -->
+
+        <nav class="navbar navbar-expand-lg shadow py-3 fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-semibold text-info fw-bold" href="#">The-garage</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- menu  -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-normal fw-bold">
+                        <li class="nav-item pe-4">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#deal">Deals</a>
+                        </li>
+
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#successed">Success</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#register">Register</a>
+                        </li>
+                    </ul>
+
+                    <!-- button -->
+
+                    <button class="btn btn-outline-info fw-semibold px-4" type="submit">Register</button>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar end  -->
+
+        <!-- slider start  -->
+        <div id="carouselExampleDark" class="container carousel carousel-dark slide mt-5 pt-5 " data-bs-ride="carousel">
+
+            <div class="carousel-inner rounded-3">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/aw-banner.png" class=" d-block w-100 img-fluid min-vh-100" alt="image">
+                    <div class="carousel-caption d-block  text-white mb-5">
+                        <h1 class="fw-bold display-5">Let's Find Your Dream <br> Car</h1>
+                        <p class="fw-normal">Get the car of your dreams with the installments of your choice. There are
+                            various attractive offers from The-Garage</p>
+                        <a href="#" class="btn primary-bg-color fw-semibold text-white px-4">Get Started</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/brown-4.jpg" class="d-block w-100 min-vh-100" alt="image">
+                    <div class="carousel-caption  d-block  text-white">
+                        <h1 class="fw-semibold display-5">Explore and grab the<br> Offer</h1>
+                        <p class="fw-normal">Distance learning is a way of educating students online. Lectures
+                            and learning materials are sent over the internet.</p>
+                        <a href="#" class="btn primary-bg-color fw-semibold text-white px-4">Get Started</a>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+
+                <i class="fa-solid fa-angle-left fs-4 text-white" aria-hidden="true"></i>
+
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+
+                <i class="fa-solid fa-angle-right fs-4 text-white" aria-hidden="true"></i>
+
+            </button>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
 
 
     <!-- bootstrap js link  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
 
