@@ -2,3 +2,12 @@
     height: 20vh;
     width: 100%;
 }
+
+.company-info>div {
+    flex-basis: 50%;
+}
+
+.company-info a {
+    text-decoration: none;
+    color: white;
+}
