@@ -11,3 +11,26 @@
     text-decoration: none;
     color: white;
 }
+
+footer {
+    background-color: #151A1A;
+}
+
+input[type=email] {
+    background-color: #2f273e;
+    border: none;
+
+}
+
+footer .submit-btn {
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 6px;
+    background-color: black;
+    color: white;
+
+}
+
+.horizontal-line {
+    color: gray;
+}
