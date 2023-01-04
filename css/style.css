@@ -104,3 +104,36 @@ footer a {
     font-weight: 400;
     font-size: 12px;
 }
+
+.card {
+    font-family: var(--font2);
+}
+
+.card,
+.card img {
+    border-radius: 0;
+}
+
+.card img {
+    height: 220px;
+}
+
+.card-body {
+    background-color: #000000;
+}
+
+.card-body h5 {
+    font-weight: 800;
+}
+
+.card-body p {
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+.button {
+    width: 100%;
+    font-weight: 700;
+    padding: 10px 80px;
+    background-color: #015196;
+}
