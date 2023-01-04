@@ -47,3 +47,60 @@ footer a {
 .left-side-footer>div>p>a {
     margin-right: 8px;
 }
+
+
+
+.collection-content {
+    width: 250px;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+
+}
+
+.blog-banner img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.blog-button {
+    margin-bottom: 15px;
+    padding: 3px 15px;
+    border: 1px solid #161616;
+    color: #161616;
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.blog-message p {
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.duration-message {
+    display: flex;
+    column-gap: 30px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.duration-message .duration-message-icon {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.duration-message span {
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 12px;
+}
