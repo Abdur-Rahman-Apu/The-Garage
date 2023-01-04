@@ -29,7 +29,7 @@
 
         <nav class="navbar navbar-expand-lg shadow py-3 fixed-top bg-white">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-semibold text-info fw-bold" href="#">The-garage</a>
+                <a class="navbar-brand text-uppercase title fw-semibold fw-bold" href="#">The-garage</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -44,28 +44,25 @@
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item pe-4">
-                            <a class="nav-link" href="#courses">Courses</a>
-                        </li>
-
-                        <li class="nav-item pe-4">
-                            <a class="nav-link" href="#deal">Deals</a>
-                        </li>
-
-                        <li class="nav-item pe-4">
-                            <a class="nav-link" href="#successed">Success</a>
-                        </li>
-                        <li class="nav-item pe-4">
                             <a class="nav-link" href="#about">About</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#register">Register</a>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#collection">Collection</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                     </ul>
 
                     <!-- button -->
 
-                    <button class="btn btn-outline-info fw-semibold px-4" type="submit">Register</button>
+                    <button class="register-btn btn-outline-info fw-semibold px-4 py-2 rounded border-0"
+                        type="submit">Register</button>
 
                 </div>
             </div>
@@ -83,7 +80,7 @@
                         <h1 class="fw-bold display-5">Let's Find Your Dream <br> Car</h1>
                         <p class="fw-normal">Get the car of your dreams with the installments of your choice. There are
                             various attractive offers from The-Garage</p>
-                        <a href="#" class="btn primary-bg-color fw-semibold text-white px-4">Get Started</a>
+                        <a href="#" class="slider-btn fw-semibold text-white px-4 py-2 rounded">Get Started</a>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
@@ -92,7 +89,7 @@
                         <h1 class="fw-semibold display-5">Explore and grab the<br> Offer</h1>
                         <p class="fw-normal">Distance learning is a way of educating students online. Lectures
                             and learning materials are sent over the internet.</p>
-                        <a href="#" class="btn primary-bg-color fw-semibold text-white px-4">Get Started</a>
+                        <a href="#" class="slider-btn primary-bg-color fw-semibold text-white px-4">Get Started</a>
                     </div>
                 </div>
 
@@ -187,8 +184,8 @@
         <!-- trusted company section end  -->
 
         <!-- our intro  start-->
-        <section class="company-intro mt-5 container bg-black text-white p-5">
-            <div class="d-flex company-info">
+        <section id="about" class="company-intro mt-5 container bg-black text-white p-5">
+            <div class="d-flex flex-column flex-md-row company-info">
                 <div>
                     <h3 class="fw-bold p-5">
                         WE ARE THE LEADERS <br>
@@ -213,7 +210,7 @@
         <!-- our intro end  -->
 
         <!-- best features start  -->
-        <section class="best-features container bg-black text-white">
+        <section id="features" class="best-features container bg-black text-white">
             <div class="text-center">
                 <h2 class="text-uppercase fw-bold">we have best features</h2>
                 <p>We are all about our clients comfort and safety. That's why we provide the best service you can
@@ -249,7 +246,7 @@
         <!-- best features end  -->
 
         <!-- collection part start  -->
-        <section class="collection container my-5">
+        <section id="collection" class="collection container my-5">
             <div class="collection-header text-center">
                 <h2>OUR COLLECTION CARS</h2>
                 <P class="mb-5">Get the car of your dreams with the installments of your choice.There are various
@@ -391,7 +388,7 @@
 
         <!-- faq section start -->
 
-        <section class="container my-5 bg-black text-white">
+        <section id="faq" class="container mt-5 bg-black text-white">
             <div class="row row-cols-1 row-cols-md-2  ">
                 <div class="p-5">
                     <h4>Maybe your question is have been answered, check this out</h4>
@@ -464,17 +461,18 @@
     <footer class="container p-5">
 
 
-        <div class="d-flex  flex-column justify-content-center align-items-center my-5">
+        <div class="d-flex flex-column justify-content-center align-items-center my-5">
             <h3 class="text-white">THE GARAGE</h3>
             <p class="text-white">To get excellent offers information. Please subscribe with us</p>
-            <form action="#" class="w-50">
-                <input class="p-2 py-3 w-100" type="email" placeholder="Your email address">
-                <input class="submit-btn p-1 py-2 px-2 rounded" type="submit" value="Subscribe">
+            <form action="#" class="w-50 text-center">
+                <input class="p-2 py-3 w-100 rounded" type="email" placeholder="Your email address">
+                <input class="submit-btn p-1 py-2 px-2 my-4 rounded" type="submit" value="SUBSCRIBE">
             </form>
         </div>
 
         <hr class="horizontal-line my-5">
-        <div class="d-flex justify-content-between align-items-center text-white left-side-footer">
+        <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center text-white left-side-footer">
             <div>
                 <p><a href="#">Terms & conditions</a> <a href="#">Privacy
                         policy</a><a href="#"> Sitemap</a></p>

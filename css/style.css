@@ -1,6 +1,30 @@
+/*************
+ google fonts
+ *************  */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --font1: 'Berkshire Swash', cursive;
+    --font2: 'Manrope', sans-serif;
+}
+
+.title {
+    color: #015196 !important;
+}
+
 .trusted-company img {
     height: 20vh;
     width: 100%;
+}
+
+.slider-btn {
+    background-color: #015196;
+    text-decoration: none;
+}
+
+.register-btn {
+    background-color: #015196;
+    color: white;
 }
 
 .company-info>div {
@@ -19,12 +43,11 @@ footer {
 input[type=email] {
     background-color: #2f273e;
     border: none;
+    color: white;
 
 }
 
 footer .submit-btn {
-    position: absolute;
-    margin-left: -90px;
     margin-top: 6px;
     background-color: black;
     color: white;
