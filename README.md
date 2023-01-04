@@ -1,6 +1,6 @@
 # The-GARAGE website
 
-This website is a landing page for a car seller company .
+This website is a landing page for a car seller company.
 
 
 ### Live website link: [https://the-garage-store.netlify.app/](https://the-garage-store.netlify.app/)
