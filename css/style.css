@@ -8,6 +8,11 @@
     --font2: 'Manrope', sans-serif;
 }
 
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
 .title {
     color: #015196 !important;
 }
