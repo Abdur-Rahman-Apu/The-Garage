@@ -34,3 +34,16 @@ footer .submit-btn {
 .horizontal-line {
     color: gray;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.left-side-footer>div {
+    flex-basis: 50%;
+}
+
+.left-side-footer>div>p>a {
+    margin-right: 8px;
+}
