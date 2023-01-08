@@ -20,6 +20,10 @@
     <!-- bootstrap css link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- owl carousel css links  -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.css">
 </head>
 
 <body>
@@ -121,64 +125,63 @@
     <main>
 
         <!-- trusted company section  start-->
-        <section class="trusted-company my-5 pt-5 d-none d-lg-block container">
-            <h2 class="fw-bold text-center mb-5">Over 800+ Models</h2>
+        <section class="trusted-company my-5 container">
 
-            <div class="d-flex justify-content-between align-items-center company mt-4 flex-wrap">
-                <div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
                     <img src="./images/company logo/tesla.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/bmw-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/ferrari-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/ford-logo.png" alt="image" class="img-fluid">
                 </div>
 
-                <div>
+                <div class="item">
                     <img src="./images/company logo/porsche-logo.png" alt="image" class="img-fluid">
                 </div>
 
-                <div>
+                <div class="item">
                     <img src="./images/company logo/honda-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/toyota-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/bentley-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/maserati-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/audi-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/lamborghini-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/mazda-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/jaguar-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/corvette-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/ford-mustang-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/hyundai-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/volkswagen-logo.png" alt="image" class="img-fluid">
                 </div>
-                <div>
+                <div class="item">
                     <img src="./images/company logo/mitsubishi-logo.png" alt="image" class="img-fluid">
                 </div>
 
@@ -507,6 +510,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <!-- owl carousel js link  -->
+
+    <script src="./owl-carousel/jquery.min.js"></script>
+    <script src="./owl-carousel/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                dots: false,
+                slideTransition: 'ease-out',
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 3
+                    },
+                    992: {
+                        items: 5
+                    }
+                }
+            })
+        })
+    </script>
 </body>
 
 </html>
