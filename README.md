@@ -23,6 +23,8 @@ This website is a landing page for a car seller company.
 * HTML
 * CSS
 * Bootstrap
+* JQuery
+* Owl Carousel
 
 
 
